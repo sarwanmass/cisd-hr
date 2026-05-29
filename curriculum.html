@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Curriculum | CISD HR Training</title>
+    <meta name="description" content="Detailed curriculum for the HR Training program. Gain skills in Talent Acquisition, Payroll, Compliance, Analytics, and Interview Skills.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .curriculum-page-header {
+            background: var(--bg-gradient);
+            padding: 80px 0 60px;
+            color: var(--white);
+            text-align: center;
+        }
+        .curriculum-page-header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+        }
+        .curriculum-page-header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .module-card {
+            background: var(--white);
+            border-radius: var(--radius-md);
+            padding: 40px;
+            box-shadow: var(--shadow-md);
+            display: flex;
+            gap: 30px;
+            transition: var(--transition);
+            border-left: 6px solid var(--primary-color);
+        }
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        .module-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--bg-light);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            color: var(--primary-color);
+            flex-shrink: 0;
+        }
+        .module-content h3 {
+            font-size: 1.8rem;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+        .module-content p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        .module-highlight {
+            border-left: 6px solid #25D366; /* WhatsApp Green to pop */
+            background: linear-gradient(to right, rgba(37, 211, 102, 0.05), transparent);
+        }
+        .module-highlight .module-icon {
+            background: #25D366;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .module-card {
+                flex-direction: column;
+                gap: 15px;
+                padding: 25px;
+            }
+            .curriculum-page-header h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container" style="justify-content: space-between; align-items: center; display: flex; flex-wrap: wrap; gap: 15px;">
+            <div class="logo">
+                <img src="assets/home/photo/logo.png" alt="CISD Logo" class="site-logo">
+                <div class="logo-text">
+                    <h1>CISD</h1>
+                    <p>CENTRE FOR INCLUSIVE SOCIAL DEVELOPMENT</p>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="curriculum.html" class="active">Curriculum</a>
+                <a href="index.html#register" class="nav-btn">Register</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="curriculum-page-header">
+            <div class="container">
+                <h1>Our Comprehensive Curriculum</h1>
+                <p>Designed to build competence, practical skills, and unshakeable confidence.</p>
+            </div>
+        </section>
+
+        <section style="padding: 80px 0; background: var(--bg-light);">
+            <div class="container">
+                <div style="display: flex; flex-direction: column; gap: 40px; max-width: 900px; margin: 0 auto;">
+                    
+                    <div class="module-card">
+                        <div class="module-icon"><i class="fa-solid fa-users-gear"></i></div>
+                        <div class="module-content">
+                            <h3>Talent Acquisition & Onboarding</h3>
+                            <p>Master the end-to-end recruitment cycle with technical precision. Get hands-on training in using <strong>Applicant Tracking Systems (ATS)</strong>, mastering <strong>Boolean search strings</strong> for sourcing on portals like Naukri and LinkedIn Recruiter, and tracking core KPIs like Time-to-Fill and Cost-per-Hire.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-icon"><i class="fa-solid fa-file-excel"></i></div>
+                        <div class="module-content">
+                            <h3>Advance Excel for HR (30+ Formula)</h3>
+                            <p>Transform raw data into actionable insights. Master 30+ crucial functions including <strong>VLOOKUP, XLOOKUP, Pivot Tables, and Nested IFs</strong>. Learn exactly why these are critical for HR: managing large employee databases, reconciling attendance records, and quickly generating attrition analytics without manual data entry.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+                        <div class="module-content">
+                            <h3>Payroll Management Hands-on</h3>
+                            <p>Process error-free payroll from Gross to Net. Get technical training on designing tax-optimized <strong>salary structures (CTC breakdown)</strong>, calculating statutory deductions, reconciling Leave & Attendance data, and performing accurate <strong>Full & Final (F&F) settlements</strong> for exiting employees.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="module-content">
+                            <h3>ESI, PF Calculation Hands-on</h3>
+                            <p>Eliminate compliance anxiety completely. Get step-by-step technical training on <strong>UAN generation, PF challan filing, ESI contribution wage limits</strong>, and managing statutory forms (Form 11, Form 2) to ensure 100% compliance and avoid costly penalties.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-icon"><i class="fa-solid fa-gavel"></i></div>
+                        <div class="module-content">
+                            <h3>New Labour Codes</h3>
+                            <p>Demystify the four new labor codes: <strong>Code on Wages, Industrial Relations, Social Security, and OSHWC Code</strong>. Understand exactly why they matter: learn their direct impact on take-home salary calculations, changes to fixed-term employment rules, and new compliance return filing structures.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-icon"><i class="fa-solid fa-chart-column"></i></div>
+                        <div class="module-content">
+                            <h3>HR Analytics</h3>
+                            <p>Become a data-driven HR leader. Learn technical methods to forecast attrition, calculate diversity metrics, and measure the ROI of training programs. Practice building compelling <strong>HR dashboards</strong> to influence strategic business decisions using data.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card module-highlight">
+                        <div class="module-icon"><i class="fa-solid fa-people-arrows"></i></div>
+                        <div class="module-content">
+                            <h3>Interview Skills & Confidence Building</h3>
+                            <p><strong>Overcome interview anxiety and build rock-solid confidence!</strong> We don't just teach HR; we train you on how to face interviews fearlessly. Through mock interviews and behavioral training, you will learn how to present your newly acquired skills, answer tough questions, and land your dream HR role with absolute assurance.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card" style="border-left-color: var(--secondary-color);">
+                        <div class="module-icon" style="background: var(--secondary-color); color: white;"><i class="fa-solid fa-handshake"></i></div>
+                        <div class="module-content">
+                            <h3>Meet with HR Class (Networking)</h3>
+                            <p><strong>Build your professional network face-to-face!</strong> We host special "Meet with HR" sessions where candidates have the unique opportunity to interact directly with experienced HR professionals. This gives you a massive advantage in building industry connections, understanding real-world expectations, and securing referrals before you even graduate.</p>
+                        </div>
+                    </div>
+
+                    <div class="module-card">
+                        <div class="module-icon"><i class="fa-solid fa-robot"></i></div>
+                        <div class="module-content">
+                            <h3>AI for HR (ChatGPT & GenAI)</h3>
+                            <p>Step into the future of HR. Learn how to leverage AI tools like <strong>ChatGPT</strong> to instantly draft HR policies, write compelling job descriptions, automate email responses, and screen resumes efficiently. Understand how AI saves time and makes HR operations highly scalable.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <section style="text-align: center; padding: 60px 0; background: var(--white);">
+            <div class="container">
+                <h2 style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 20px;">Ready to Start Your Journey?</h2>
+                <a href="index.html#register" class="cta-button">Register via WhatsApp <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-tagline">
+            <h2>SKILLS TODAY. LEAD TOMORROW. <span>| CISD</span></h2>
+        </div>
+        <div class="container footer-content">
+            <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-text">
+                    <span>Email</span>
+                    <a href="mailto:cisd_offl@outlook.com">cisd_offl@outlook.com</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="contact-text">
+                    <span>Mobile</span>
+                    <a href="tel:+919483153874">+91 9483153874</a>
+                </div>
+            </div>
+            <div class="contact-item address-item">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="contact-text">
+                    <span>Address</span>
+                    <p>1st Floor, Gundappa Complex,<br>Mariyappana Palya Main Rd,<br>Mariyappana Palya, Gnana Bharathi,<br>Bengaluru, Karnataka 560056</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>SKILLS. EMPOWERMENT. EQUALITY.</p>
+        </div>
+    </footer>
+
+    <!-- AI Chat Agent -->
+    <div class="chat-widget">
+        <button class="chat-toggle" id="chatToggle">
+            <i class="fa-solid fa-robot"></i>
+        </button>
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                <div>
+                    <h4>CISD AI Assistant</h4>
+                    <p>Ask me anything in any language!</p>
+                </div>
+                <button class="close-chat" id="closeChat"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message ai-message">
+                    Hi! I'm the CISD AI Assistant. How can I help you with our HR Training program today? (You can ask in English, Hindi, Kannada, etc.)
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Type your message here...">
+                <button id="sendMessage"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
